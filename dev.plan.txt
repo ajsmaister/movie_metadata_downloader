@@ -1,0 +1,19 @@
+1. create folder:
+        - movies
+        - .vscode - create {launch.json}
+2. activate: venv
+3. add {.gitognore} file --> content: .vscode; venv
+4. create {requirements.txt} file
+5. Project add remote REPO
+
+task organizing:
+            - Create movie folder content list by extensions.
+            - API request
+            - download pictures for movie files
+            - store metadaata
+
+organization:
+            - File handling --> metadata_folder
+            - API handling
+            - database handling [PostgresSql; MongoDB]
+
