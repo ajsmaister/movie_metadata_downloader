@@ -17,15 +17,15 @@ class Filehandler:
 
 	# ---------------------------------------------------------------------------------------------- [CLASS ATTRIBUTES]
 	# Create posters root lib ...
-	poster_folder = os.path.dirname(os.path.dirname(__file__))     # <-- path of movie_metadata_downloader
+	poster_folder = os.path.dirname(os.path.dirname(__file__))     # <-- path of movie_metadata_downloader_in_files
 	poster_folder_path = os.path.join(poster_folder, 'posters')    # <-- add folder name
 
 	# Create metadata root lib ...
-	metadata_folder = os.path.dirname(os.path.dirname(__file__))     # <-- path of movie_metadata_downloader
+	metadata_folder = os.path.dirname(os.path.dirname(__file__))     # <-- path of movie_metadata_downloader_in_files
 	metadata_folder_path = os.path.join(metadata_folder, 'metadata') # <-- add folder name
 
 	# Create movie root lib ...
-	movies_folder = os.path.dirname(os.path.dirname(__file__))  # <-- path of movie_metadata_downloader
+	movies_folder = os.path.dirname(os.path.dirname(__file__))  # <-- path of movie_metadata_downloader_in_files
 	movies_folder_path = os.path.join(movies_folder, 'movies')  # <-- add folder name
 
 	# print(poster_folder_path)   # Only Debugging! <-- class 'str'
